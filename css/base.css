@@ -20,8 +20,7 @@ body {
 	color: var(--color-text);
 	background: var(--color-bg) url(../img/bg.jpg) no-repeat 50% 50% fixed;
 	background-size: cover;
-	font-family: "iki-mono-variable", sans-serif;
-	font-variation-settings: "wdth" 80, "wght" 300;
+	font-family: "Sofia-Pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -189,12 +188,12 @@ span.frame__demos-item:not(:first-child) {
 
 .grid__title {
 	text-transform: uppercase;
-	font-size: 6.75vw;
-	line-height: 0.8;
+	font-size: 8vw;
+	line-height: 1;
 	opacity: 0.4;
-	font-family: "tt-autonomous", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	font-family: "sofia-pro", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
 	font-weight: 200;
-	line-height: 0.8;
+	line-height: 1;
 	background-color: #fff;
 	background-image: linear-gradient(45deg, #fdf17b, #54ad8a, #a054fd);
 	background-size: 100%;
@@ -248,6 +247,7 @@ span.frame__demos-item:not(:first-child) {
 	flex-direction: column;
 	background-color: rgba(255, 255, 255, .15);
 	backdrop-filter: blur(5px);
+	border-radius: 12px;
 }
 
 .card__box--a {
@@ -286,9 +286,9 @@ span.frame__demos-item:not(:first-child) {
 
 .card__box-number {
 	font-size: clamp(2rem, 10vw, 3.5rem);
-	font-family: "tt-autonomous", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+	font-family: "sofia-pro", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
 	font-weight: 200;
-	line-height: 0.8;
+	line-height: 1;
 	grid-area: number;
 }
 
@@ -298,14 +298,14 @@ span.frame__demos-item:not(:first-child) {
 
 .card__box-tags,
 .card__box-category {
-	font-size: 0.85rem;
+	font-size: 1.55rem;
 	font-weight: 600;
 	margin-top: auto;
 }
 
 .card__box-tags {
 	grid-area: tags;
-	font-size: 0.65rem;
+	font-size: .75rem;
 }
 
 .card__box-category {
@@ -325,8 +325,8 @@ span.frame__demos-item:not(:first-child) {
 	}
 	.grid__title {
 		position: absolute;
-		top: 0;
-		left: -13vw;
+		top: -2vw;
+		left: -11vw;
 	}
 	.grid {
 		grid-template-columns: repeat(2,300px);
